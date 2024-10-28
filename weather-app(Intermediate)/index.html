@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather App</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    
+    
+    <div class="container">
+
+        <video autoplay loop muted plays-inline class="back-video">
+            <source src="weathervid.mp4" type="video/mp4"></video>
+
+        <div class="titleCard">
+        <p class="title"><span>Weather</span> MAN</p>
+        <p class="desc">Search for the Weather details!</p>
+        </div>
+        <div class="card">
+        <input id="cityInput" class="inputBox" type="text" placeholder="Enter your city">
+        <button id="searchBtn" class="btnSearch">Search</button>
+       </div>
+       <p class="desc">by Satyam Balaiwar (2200290100146) MLSA-KIET</p>
+       
+       <div id="outputCard" class="output">
+        <div class="cityNameCard">
+        <p id="city-name"></p>
+        <p id="countryName"></p>
+        </div>
+        <div class="tempCard">
+            <p id="temp"></p><sup id="sup"></sup>
+        </div>
+        <p id="loc-time"></p>
+       </div>
+    </div>
+</body>
+<script src="app.js"></script>
+</html>
